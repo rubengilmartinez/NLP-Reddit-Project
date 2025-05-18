@@ -1,0 +1,16 @@
+# Librerías esenciales instaladas para trabajar en Google Colab Pro
+
+praw                     # API de Reddit
+datasets                # Conjuntos de datos de Hugging Face
+gensim>=4.0.0           # Para trabajar con modelos de tópicos y BM25 (BM25Okapi)
+fasttext                # Word embeddings de Facebook optimizados para rendimiento
+sentence-transformers==2.7.0  # Modelos SOTA para embeddings semánticos
+transformers==4.39.3    # Transformers de Hugging Face
+huggingface-hub==0.27.0 # Repositorio de modelos/datasets de Hugging Face
+bitsandbytes            # Cuantización eficiente para modelos grandes (4/8-bit)
+symspellpy              # Para corrección ortográfica eficiente
+
+# Recursos adicionales (fuera del entorno pip):
+# - BM25: código implementado manualmente en un archivo .py
+# - Diccionario de frecuencia: frequency_dictionary_en_82_765.txt
+#   necesario para SymSpellPy, incluye conteo de palabras en inglés para corrección ortográfica automática
